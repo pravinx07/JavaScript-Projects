@@ -1,4 +1,4 @@
-import AnimatedNavbar from "./components/AnimatedNavbar";
+import AnimatedNavbar from "./AnimatedNavbar";
 
 export default function Page() {
   return (

@@ -4,44 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
     <style>
-        .parent{
-            height: 300px;
-        
-            
-            margin: 20px;
-            border: 2px solid black;
-            display: flex;
-            justify-content:left;
-            align-items:center;
-            flex-wrap:wrap;
-            gap: 10px;
-
-
+        /* .parent{
+            border: 1px solid black;
+            display: grid;
+            grid-template-rows: repeat(5, 30px);
+            grid-template-columns: repeat((5, 30px));
+            grid-gap: 10px;
         }
         .child{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 10px;
-            height: 50px;
-            width: 70px;
-            border: 1px solid black;
-        
-
+            border: 1px  dashed;
         }
+        /* .item1{
+            grid-row-start: 1;
+            grid-row-end: 3;
+            grid-column-start: 1;
+            grid-column-end: 4;
+        } */
+        /* .item-5{
+            /* grid-row-start: 4;
+            grid-row-end: 5;
+            grid-column-start:4;
+            grid-column-end: 5; */
+            /* grid-row: 2/5;
+            grid-column: 4/5; */
+            /* grid-area: 1/1/3/4; */
+            /* grid-area: r-start / c-start / r-end / c-end */
+        /* }
+        .item-4{
+            grid-column-start: 4;
+            grid-column-end: 1;
+        } */  
+         div{
+            box-sizing: border-box;
+            height: 40px;
+            width: 50px;
+            border: 10px solid red;
+            padding: 30px;
+        ;
+         }
+         #one{
+          margin-top: 30px;
+         }
+         #two{
+            margin-bottom: 40px
+         }
     </style>
+
 </head>
 <body>
-    <div class="parent">
-     <div class="child">Item 1</div>
-     <div class="child">Item 2</div>
-     <div class="child">Item 3</div>
-     <div class="child">Item 4</div>
-     <div class="child">Item 5</div>
-     <div class="child">Item 6</div>
-     <div class="child">Item 7</div>
-     <div class="child">Item 8</div>
-    </div>
+    <!-- <div class="div1">
+         <div class="in1"></div>
+    <div class="in2"></div>
+    </div> -->
+   
+    <!-- <div class="parent">
+        <div class="child item1">Item1</div>
+        <div class="child">Item1</div>
+        <div class="child">Item2</div>
+        <div class="child">Item3</div>
+        <div class="child item-4">Item4</div>
+        <div class="child item-5">Item5</div>
+        
+
+
+    </div> -->
+    <div id="two">Pravin</div>
+    <div id="one">Pravin</div>
 </body>
 </html>
